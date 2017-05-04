@@ -1,0 +1,51 @@
+body{
+	margin:0;
+	padding:0;
+}
+section{
+	background-color: #000;
+	height: 100vh;
+	overflow: hidden;
+	position: relative;
+}
+.test_case{
+	color:#f00;
+	text-align: center;
+}
+article .test_case{
+	background-color: lightgrey;
+	padding:10px;
+}
+.sect_1{
+	background-image: url(../img/linux_mint_gnu_logo.jpg);
+	background-size: cover;
+	}
+	.htext{
+		background-color: rgba(0,0,0,.5);
+		color: #fff;
+		font-family: Arial, sans-serif;
+		font-size: 50pt;
+		font-weight: 600;
+		text-align: center;
+		text-transform: uppercase;
+	}
+.sect_2 img{
+	position: absolute;
+	top: -300px;
+	width: 100%;
+}
+
+.row{
+	background-color: lightgrey;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content:space-around;
+	justify-content: space-around;
+	z-index: 5;
+	}
+	.item_b1{
+		background-color: grey;
+		padding:10px;
+		text-align: justify;
+		width: 250px;
+	}
